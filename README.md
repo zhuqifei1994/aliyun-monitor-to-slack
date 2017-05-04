@@ -6,8 +6,7 @@
 
 如图所示：
 
-<img src="http://oe1qcatok.bkt.clouddn.com/20170428149337619684645.png" width="60%" height="60%">
-
+<img src="http://oe1qcatok.bkt.clouddn.com/20170504149386617274533.png" width="60%" height="60%">
 
 ### 变量配置
 
