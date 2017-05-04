@@ -78,8 +78,8 @@ function checkAliyunData(regionCode) {
 			var node_name = name_dataList[i];
 			var cpu_data = cpu_dataAverage[i].toFixed(2);
 			var mem_data = mem_dataAverage[i].toFixed(2);
-			var cpu_Max = cpu_Max[i];
-			var mem_Max = mem_Max[i];
+			var cpu_max = cpu_Max[i];
+			var mem_max = mem_Max[i];
 
 			var color;
 			if (cpu_data >= 80 || mem_data >= 80) {
@@ -94,8 +94,8 @@ function checkAliyunData(regionCode) {
 				title: node_name,
 				color: color,
 				text: dedent`
-			    CPU (平均值:${cpu_data}% ; 峰值:${cpu_Max}%)
-			    内存 (平均值:${mem_data}% ; 峰值:${mem_Max}%)
+			    CPU (平均值:${cpu_data}% ; 峰值:${cpu_max}%)
+			    内存 (平均值:${mem_data}% ; 峰值:${mem_max}%)
 			    `
 			});
 		}
