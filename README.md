@@ -34,13 +34,13 @@
 - 立即执行
 
 ```
-checkServerData('shanghai');  
+checkAliyunData('shanghai');
 ```
 
 - 定时执行
 
 ```
-schedule.scheduleJob('00 08 * * 1-5', () => checkServerData('shanghai'));
+schedule.scheduleJob('00 08 * * *', () => checkAliyunData('shanghai'));
 ```
 
 ### 启动服务
