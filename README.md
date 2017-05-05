@@ -48,3 +48,8 @@ schedule.scheduleJob('00 08 * * *', () => checkAliyunData('shanghai'));
 ```
 node app.js
 ```
+
+### 构建docker镜像
+```
+docker build -t aliyun-monitor .
+```
